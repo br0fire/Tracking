@@ -1,0 +1,191 @@
+2022-07-08 13:52:49,305 INFO    MainThread:7273 [internal.py:wandb_internal():90] W&B internal server running at pid: 7273, started at: 2022-07-08 13:52:49.305585
+2022-07-08 13:52:49,307 INFO    WriterThread:7273 [datastore.py:open_for_write():75] open: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/run-v19j96nm.wandb
+2022-07-08 13:52:49,308 DEBUG   SenderThread:7273 [sender.py:send():236] send: header
+2022-07-08 13:52:49,308 DEBUG   SenderThread:7273 [sender.py:send():236] send: run
+2022-07-08 13:52:49,316 INFO    SenderThread:7273 [sender.py:_maybe_setup_resume():493] checking resume status for None/train/v19j96nm
+2022-07-08 13:52:50,180 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: check_version
+2022-07-08 13:52:50,183 INFO    SenderThread:7273 [dir_watcher.py:__init__():216] watching files in: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files
+2022-07-08 13:52:50,183 INFO    SenderThread:7273 [sender.py:_start_run_threads():815] run started: v19j96nm with start time 1657277568
+2022-07-08 13:52:50,184 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:52:50,184 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:52:50,185 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: check_version
+2022-07-08 13:52:50,591 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: run_start
+2022-07-08 13:52:50,598 DEBUG   HandlerThread:7273 [meta.py:__init__():35] meta init
+2022-07-08 13:52:50,598 DEBUG   HandlerThread:7273 [meta.py:__init__():49] meta init done
+2022-07-08 13:52:50,599 DEBUG   HandlerThread:7273 [meta.py:probe():209] probe
+2022-07-08 13:52:50,606 DEBUG   HandlerThread:7273 [git.py:repo():29] git repository is invalid
+2022-07-08 13:52:50,606 DEBUG   HandlerThread:7273 [meta.py:_save_pip():53] save pip
+2022-07-08 13:52:50,607 DEBUG   HandlerThread:7273 [meta.py:_save_pip():67] save pip done
+2022-07-08 13:52:50,608 DEBUG   HandlerThread:7273 [meta.py:probe():247] probe done
+2022-07-08 13:52:50,642 DEBUG   SenderThread:7273 [sender.py:send():236] send: files
+2022-07-08 13:52:50,642 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-08 13:52:50,645 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:52:50,646 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:52:51,088 DEBUG   SenderThread:7273 [sender.py:send():236] send: telemetry
+2022-07-08 13:52:51,088 DEBUG   SenderThread:7273 [sender.py:send():236] send: config
+2022-07-08 13:52:51,184 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/requirements.txt
+2022-07-08 13:52:51,184 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:52:51,184 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-metadata.json
+2022-07-08 13:52:51,184 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:52:51,819 INFO    Thread-11 :7273 [upload_job.py:push():138] Uploaded file /tmp/tmpd_ykjxljwandb/1e0dw25s-wandb-metadata.json
+2022-07-08 13:52:53,183 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:52:55,184 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:52:57,184 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:53:03,187 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:53:06,089 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:53:06,089 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:53:18,905 DEBUG   SenderThread:7273 [sender.py:send():236] send: stats
+2022-07-08 13:53:21,192 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/config.yaml
+2022-07-08 13:53:21,658 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:53:21,658 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:53:37,038 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:53:37,038 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:53:49,172 DEBUG   SenderThread:7273 [sender.py:send():236] send: stats
+2022-07-08 13:53:51,200 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:53:52,422 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:53:52,423 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:53:53,200 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:53:55,201 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:53:57,202 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:53:59,202 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:00,700 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:00,700 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:00,700 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:00,702 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:00,702 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:00,703 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:00,703 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:00,703 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:00,703 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:00,703 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:01,203 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:01,203 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:54:01,703 DEBUG   SenderThread:7273 [sender.py:send():236] send: files
+2022-07-08 13:54:01,703 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file media/images/Labels_0_9889f9215a7924bbd558.jpg with policy now
+2022-07-08 13:54:01,705 DEBUG   SenderThread:7273 [sender.py:send():236] send: files
+2022-07-08 13:54:01,705 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file media/images/Labels_0_80df96dd5d65ed9ece24.jpg with policy now
+2022-07-08 13:54:01,889 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-08 13:54:01,892 DEBUG   SenderThread:7273 [sender.py:send():236] send: history
+2022-07-08 13:54:01,892 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:01,893 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:02,203 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:54:02,203 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images/Labels_0_9889f9215a7924bbd558.jpg
+2022-07-08 13:54:02,204 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images/Labels_0_80df96dd5d65ed9ece24.jpg
+2022-07-08 13:54:02,204 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images
+2022-07-08 13:54:02,204 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media
+2022-07-08 13:54:03,055 INFO    Thread-13 :7273 [upload_job.py:push():138] Uploaded file /tmp/tmpd_ykjxljwandb/gyu4v88q-media/images/Labels_0_80df96dd5d65ed9ece24.jpg
+2022-07-08 13:54:03,056 INFO    Thread-12 :7273 [upload_job.py:push():138] Uploaded file /tmp/tmpd_ykjxljwandb/1vo5cumf-media/images/Labels_0_9889f9215a7924bbd558.jpg
+2022-07-08 13:54:03,204 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:05,204 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:07,205 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:07,827 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:54:07,827 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:54:19,466 DEBUG   SenderThread:7273 [sender.py:send():236] send: stats
+2022-07-08 13:54:23,173 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:54:23,174 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:54:29,216 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:31,217 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:32,917 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:32,917 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:32,919 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:32,935 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:32,935 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:32,936 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:32,936 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:32,936 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:32,936 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:32,937 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:32,937 DEBUG   SenderThread:7273 [sender.py:send():236] send: files
+2022-07-08 13:54:32,937 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file media/images/Mosaics_1_1fb7dd588745544adbec.jpg with policy now
+2022-07-08 13:54:32,937 DEBUG   SenderThread:7273 [sender.py:send():236] send: files
+2022-07-08 13:54:32,939 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file media/images/Mosaics_1_c696f91af41ad0164f60.jpg with policy now
+2022-07-08 13:54:32,939 DEBUG   SenderThread:7273 [sender.py:send():236] send: files
+2022-07-08 13:54:32,939 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file media/images/Mosaics_1_48b8ce26832138dab7a7.jpg with policy now
+2022-07-08 13:54:33,146 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-08 13:54:33,147 DEBUG   SenderThread:7273 [sender.py:send():236] send: history
+2022-07-08 13:54:33,148 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:54:33,148 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:54:33,217 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:33,218 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:54:33,218 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images/Mosaics_1_1fb7dd588745544adbec.jpg
+2022-07-08 13:54:33,218 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images/Mosaics_1_48b8ce26832138dab7a7.jpg
+2022-07-08 13:54:33,218 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images/Mosaics_1_c696f91af41ad0164f60.jpg
+2022-07-08 13:54:33,218 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/media/images
+2022-07-08 13:54:34,372 INFO    Thread-14 :7273 [upload_job.py:push():138] Uploaded file /tmp/tmpd_ykjxljwandb/1ptvel7o-media/images/Mosaics_1_1fb7dd588745544adbec.jpg
+2022-07-08 13:54:34,373 INFO    Thread-16 :7273 [upload_job.py:push():138] Uploaded file /tmp/tmpd_ykjxljwandb/3p4o94pr-media/images/Mosaics_1_48b8ce26832138dab7a7.jpg
+2022-07-08 13:54:34,703 INFO    Thread-15 :7273 [upload_job.py:push():138] Uploaded file /tmp/tmpd_ykjxljwandb/2v59bwh1-media/images/Mosaics_1_c696f91af41ad0164f60.jpg
+2022-07-08 13:54:35,218 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:37,219 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:38,632 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:54:38,632 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:54:39,220 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:41,221 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:43,222 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:54:49,742 DEBUG   SenderThread:7273 [sender.py:send():236] send: stats
+2022-07-08 13:54:54,085 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:54:54,085 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:55:07,667 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:07,668 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:07,671 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:07,671 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:07,672 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:07,672 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:07,673 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:07,673 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:07,674 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:07,675 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:07,676 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-08 13:55:07,677 DEBUG   SenderThread:7273 [sender.py:send():236] send: history
+2022-07-08 13:55:07,677 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:07,677 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:08,231 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:55:09,232 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:09,543 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:55:09,543 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:55:11,232 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:13,233 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:15,234 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:17,235 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:18,002 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:18,002 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:18,006 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:18,006 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:18,008 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:18,008 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:18,009 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:18,009 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:18,010 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:18,010 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:18,012 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-08 13:55:18,014 DEBUG   SenderThread:7273 [sender.py:send():236] send: history
+2022-07-08 13:55:18,014 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:18,014 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:18,235 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:55:19,235 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:20,016 DEBUG   SenderThread:7273 [sender.py:send():236] send: stats
+2022-07-08 13:55:25,016 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:55:25,017 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:55:40,459 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-08 13:55:40,460 DEBUG   SenderThread:7273 [sender.py:send_request():250] send_request: stop_status
+2022-07-08 13:55:45,245 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:48,247 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:50,247 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:50,277 DEBUG   SenderThread:7273 [sender.py:send():236] send: stats
+2022-07-08 13:55:52,015 DEBUG   HandlerThread:7273 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-08 13:55:52,016 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:52,017 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:52,017 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:52,018 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:52,018 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:52,018 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:52,019 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:52,019 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:52,019 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:52,019 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:52,020 DEBUG   SenderThread:7273 [sender.py:send():236] send: history
+2022-07-08 13:55:52,020 DEBUG   SenderThread:7273 [sender.py:send():236] send: summary
+2022-07-08 13:55:52,020 INFO    SenderThread:7273 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-08 13:55:52,249 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:52,249 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/wandb-summary.json
+2022-07-08 13:55:54,249 INFO    Thread-7  :7273 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sirius/Files/task/wandb/run-20220708_135248-v19j96nm/files/output.log
+2022-07-08 13:55:55,060 WARNING MainThread:7273 [internal.py:wandb_internal():153] Internal process interrupt: 1

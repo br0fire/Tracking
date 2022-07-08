@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-07-08T09:37:13.489741",
+    "startedAt": "2022-07-08T09:37:11.676254",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "8",
+        "--epochs",
+        "15",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "yolov5/train.py",
+    "codePath": "yolov5/train.py",
+    "host": "ad02-nb-9d4f7b",
+    "username": "sirius",
+    "executable": "/usr/bin/python3"
+}
