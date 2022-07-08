@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.13.0-52-generic-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-07-08T13:13:06.758272",
+    "startedAt": "2022-07-08T13:13:02.552233",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "-1",
+        "--epochs",
+        "30",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "/home/sirius/Tracking/yolov5/train.py",
+    "codePath": "yolov5/train.py",
+    "git": {
+        "remote": "https://github.com/br0fire/Tracking.git",
+        "commit": "b92833df3e90774b007691286c12dab1438fcc7e"
+    },
+    "email": null,
+    "root": "/home/sirius/Tracking",
+    "host": "sirius-OptiPlex-7071",
+    "username": "sirius",
+    "executable": "/home/sirius/anaconda3/bin/python3"
+}
