@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1</id>
+      <name>Badges</name>
+      <size>144</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-07-07 14:34:19.385935+00:00</created>
+      <updated>2022-07-07 20:21:55.018463+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>143</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1</id>
+          <start>0</start>
+          <stop>143</stop>
+          <url>http://localhost:8080/?id=1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>tgrozny@yandex.ru</username>
+        <email>tgrozny@yandex.ru</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>badge</name>
+          <color>#eddd39</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2022-07-07 20:31:16.509139+00:00</dumped>
+  </meta>
+  <image id="0" name="6Z2_4584.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1791.20" ytl="2125.35" xbr="1968.50" ybr="2372.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2393.90" ytl="1898.60" xbr="2533.80" ybr="2146.10" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="6Z2_4597.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1988.80" ytl="1911.80" xbr="2190.80" ybr="2196.10" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="6Z2_4605.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2268.10" ytl="1953.60" xbr="2437.00" ybr="2252.95" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="6Z2_4608.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2215.02" ytl="1797.80" xbr="2369.60" ybr="2103.34" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="6Z2_4613.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2299.60" ytl="1852.90" xbr="2498.40" ybr="2170.30" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="6Z2_4617.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2322.10" ytl="1796.68" xbr="2507.80" ybr="2106.70" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="6Z2_4622.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2157.40" ytl="1613.00" xbr="2369.50" ybr="1949.40" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="6Z2_4625.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2170.50" ytl="1701.30" xbr="2379.80" ybr="2023.80" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="6Z2_4629.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2047.50" ytl="1940.23" xbr="2241.40" ybr="2206.70" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="6Z2_4636.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1858.70" ytl="2094.90" xbr="2067.90" ybr="2373.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2865.50" ytl="2008.10" xbr="3021.30" ybr="2292.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2373.00" ytl="2174.90" xbr="2560.60" ybr="2446.40" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="6Z2_4644.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1937.00" ytl="2002.10" xbr="2126.40" ybr="2307.48" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2935.00" ytl="1935.10" xbr="3044.80" ybr="2225.24" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2282.20" ytl="2047.90" xbr="2470.10" ybr="2341.29" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="6Z2_4651.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2374.10" ytl="2115.20" xbr="2583.30" ybr="2410.70" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="6Z2_4656.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2075.30" ytl="1935.40" xbr="2281.00" ybr="2228.90" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="6Z2_4660.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2121.20" ytl="1523.60" xbr="2240.10" ybr="1707.30" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="6Z2_4663.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2461.30" ytl="2072.68" xbr="2709.90" ybr="2424.80" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="6Z2_4666.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2472.20" ytl="2166.10" xbr="2718.30" ybr="2525.80" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="6Z2_4669.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2598.70" ytl="2030.20" xbr="2802.50" ybr="2324.40" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1684.38" ytl="1809.60" xbr="1894.40" ybr="2103.50" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="6Z2_4678.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1650.20" ytl="1862.90" xbr="1866.50" ybr="2169.50" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2521.39" ytl="2068.80" xbr="2738.60" ybr="2391.80" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="6Z2_4686.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1890.30" ytl="1760.10" xbr="2065.20" ybr="2019.50" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="6Z2_4688.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1803.24" ytl="1857.19" xbr="1978.10" ybr="2096.70" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2180.20" ytl="1568.20" xbr="2348.30" ybr="1793.50" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="6Z2_4694.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1907.51" ytl="1577.01" xbr="2025.47" ybr="1743.89" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2172.90" ytl="1387.90" xbr="2291.50" ybr="1547.40" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="6Z2_4699.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2367.79" ytl="1729.33" xbr="2569.97" ybr="2013.63" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="6Z2_4707.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2089.80" ytl="1670.50" xbr="2308.00" ybr="1965.40" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="6Z2_4712.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1976.10" ytl="1712.50" xbr="2177.00" ybr="1989.80" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="6Z2_4717.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1996.80" ytl="2144.08" xbr="2204.60" ybr="2442.40" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2639.20" ytl="1869.50" xbr="2823.10" ybr="2196.70" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="6Z2_4724.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1904.70" ytl="2069.40" xbr="2103.60" ybr="2358.70" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2559.80" ytl="1802.12" xbr="2746.00" ybr="2124.30" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="6Z2_4730.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2221.00" ytl="1681.30" xbr="2395.30" ybr="1937.90" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="6Z2_4735.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2162.10" ytl="2038.74" xbr="2364.30" ybr="2327.90" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="6Z2_4738.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2006.74" ytl="2076.48" xbr="2216.00" ybr="2374.79" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="6Z2_4740.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2004.10" ytl="2042.38" xbr="2212.10" ybr="2337.40" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="6Z2_4745.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2320.10" ytl="2004.70" xbr="2539.80" ybr="2311.00" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2004.80" ytl="1630.90" xbr="2225.50" ybr="1936.20" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="6Z2_4750.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2476.40" ytl="1919.50" xbr="2678.80" ybr="2219.84" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="6Z2_4758.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2322.12" ytl="1657.30" xbr="2496.30" ybr="1917.38" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2492.10" ytl="2083.50" xbr="2596.20" ybr="2391.40" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="6Z2_4764.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2598.20" ytl="1576.00" xbr="2697.70" ybr="1752.60" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2469.80" ytl="1308.47" xbr="2584.10" ybr="1476.70" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="6Z2_4767.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2175.10" ytl="1845.50" xbr="2351.20" ybr="2136.90" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="6Z2_4774.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2029.40" ytl="1917.34" xbr="2198.60" ybr="2168.10" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="6Z2_4779.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2735.20" ytl="1987.40" xbr="2906.80" ybr="2238.60" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1898.88" ytl="1830.38" xbr="2082.00" ybr="2082.18" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="6Z2_4782.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2671.78" ytl="2001.80" xbr="2872.10" ybr="2264.89" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1837.42" ytl="1879.60" xbr="2006.50" ybr="2132.10" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="6Z2_4787.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1779.50" ytl="1862.10" xbr="1963.50" ybr="2118.60" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="6Z2_4792.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2027.10" ytl="1950.74" xbr="2240.90" ybr="2254.84" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="6Z2_4803.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1375.20" ytl="1848.49" xbr="1593.60" ybr="2181.39" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2863.20" ytl="2073.00" xbr="3087.60" ybr="2414.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2265.60" ytl="1727.70" xbr="2458.90" ybr="2032.10" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="6Z2_4811.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2314.50" ytl="2027.00" xbr="2525.10" ybr="2303.18" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="6Z2_4817.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2429.10" ytl="2010.20" xbr="2641.10" ybr="2302.69" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="6Z2_4822.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1827.52" ytl="1898.83" xbr="2018.85" ybr="2166.89" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2440.29" ytl="1910.61" xbr="2563.60" ybr="2213.88" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="6Z2_4830.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2519.30" ytl="1980.40" xbr="2647.80" ybr="2247.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="956.30" ytl="1795.90" xbr="1138.89" ybr="2087.79" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2017.50" ytl="1654.78" xbr="2176.30" ybr="1895.60" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3245.50" ytl="2017.96" xbr="3433.10" ybr="2336.60" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="6Z2_4834.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2496.40" ytl="1523.00" xbr="2582.60" ybr="1675.22" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2935.03" ytl="1501.10" xbr="3043.60" ybr="1668.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2181.10" ytl="1329.06" xbr="2272.70" ybr="1479.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1588.41" ytl="1387.75" xbr="1683.41" ybr="1550.60" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="6Z2_4840.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1742.80" ytl="1511.70" xbr="1858.00" ybr="1672.30" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2385.04" ytl="1543.59" xbr="2492.90" ybr="1696.24" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2695.70" ytl="1607.46" xbr="2807.64" ybr="1767.00" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2010.00" ytl="1640.03" xbr="2108.40" ybr="1801.10" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3103.74" ytl="1454.36" xbr="3228.90" ybr="1618.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1065.14" ytl="1661.00" xbr="1196.30" ybr="1831.60" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="6Z2_4847.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2338.10" ytl="2126.10" xbr="2620.90" ybr="2509.10" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="6Z2_4853.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2275.77" ytl="2070.80" xbr="2562.40" ybr="2458.20" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="6Z2_4857.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1504.50" ytl="1806.14" xbr="1791.00" ybr="2153.50" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="6Z2_4866.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1384.70" ytl="1741.00" xbr="1667.60" ybr="2079.90" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="6Z2_4870.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1525.91" ytl="1789.80" xbr="1795.84" ybr="2140.40" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="6Z2_4875.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2009.60" ytl="2293.50" xbr="2281.70" ybr="2751.70" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="6Z2_4882.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1930.90" ytl="2471.59" xbr="2275.85" ybr="2990.99" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="6Z2_4893.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1954.90" ytl="2251.35" xbr="2221.30" ybr="2692.94" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="6Z2_4895.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2056.70" ytl="2180.72" xbr="2298.85" ybr="2605.51" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="6Z2_4932.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1841.12" ytl="2576.15" xbr="2197.41" ybr="2889.69" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2575.08" ytl="2743.60" xbr="3205.70" ybr="3000.00" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="6Z2_4946.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2396.94" ytl="2398.00" xbr="3056.10" ybr="2907.50" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="6Z2_4954.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="3480.07" ytl="2198.48" xbr="4039.45" ybr="2722.20" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="6Z2_4981.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1747.30" ytl="1735.30" xbr="1997.89" ybr="2088.03" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1244.12" ytl="2180.70" xbr="1405.92" ybr="2434.14" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="6Z2_4991.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1425.40" ytl="3770.89" xbr="2124.60" ybr="4380.80" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="6Z2_4993.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="937.89" ytl="4332.49" xbr="1634.10" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="6Z2_5000.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="630.76" ytl="3832.68" xbr="1154.00" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="63" name="6Z2_5005.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="2362.60" ytl="3772.49" xbr="2936.70" ybr="4500.61" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="6Z2_5017.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1093.99" ytl="3510.80" xbr="1664.30" ybr="4117.70" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="6Z2_5022.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1613.90" ytl="3858.10" xbr="2448.90" ybr="4508.07" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="6Z2_5038.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1112.93" ytl="3851.20" xbr="1714.50" ybr="4504.02" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="6Z2_5042.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1065.20" ytl="3623.50" xbr="1700.34" ybr="4010.56" z_order="0">
+    </box>
+  </image>
+  <image id="68" name="6Z2_5047.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1420.72" ytl="4209.63" xbr="1999.10" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="6Z2_5050.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1558.20" ytl="3648.53" xbr="2195.20" ybr="4330.70" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="6Z2_5064.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1639.82" ytl="3923.60" xbr="2373.60" ybr="4490.00" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="6Z2_5067.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1965.80" ytl="3235.10" xbr="2592.70" ybr="3938.80" z_order="0">
+    </box>
+  </image>
+  <image id="72" name="6Z2_5070.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1786.58" ytl="3502.70" xbr="2338.30" ybr="4040.68" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="0.34" ytl="3462.50" xbr="493.70" ybr="4268.20" z_order="0">
+    </box>
+  </image>
+  <image id="73" name="6Z2_5081.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1141.82" ytl="3540.30" xbr="1677.40" ybr="4017.60" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="6Z2_5100.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1529.50" ytl="4198.10" xbr="1815.30" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="6Z2_5103.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="937.50" ytl="3984.60" xbr="1595.64" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="76" name="6Z2_5106.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1792.75" ytl="2052.20" xbr="2109.01" ybr="2471.32" z_order="0">
+    </box>
+  </image>
+  <image id="77" name="6Z2_5109.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1857.80" ytl="2151.60" xbr="2166.10" ybr="2590.80" z_order="0">
+    </box>
+  </image>
+  <image id="78" name="6Z2_5145.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="0.58" ytl="2699.13" xbr="255.40" ybr="3136.72" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="752.68" ytl="3397.10" xbr="1281.70" ybr="3990.40" z_order="0">
+    </box>
+  </image>
+  <image id="79" name="6Z2_5155.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1.58" ytl="3124.71" xbr="451.40" ybr="3596.01" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1252.44" ytl="4236.98" xbr="1708.30" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="80" name="6Z2_5162.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1183.90" ytl="3928.90" xbr="1914.80" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="6Z2_5168.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1594.56" ytl="3211.50" xbr="2276.35" ybr="3709.90" z_order="0">
+    </box>
+  </image>
+  <image id="82" name="6Z2_5228.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1602.88" ytl="1925.05" xbr="1863.90" ybr="2309.50" z_order="0">
+    </box>
+  </image>
+  <image id="83" name="6Z2_5236.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1609.05" ytl="2053.77" xbr="1899.00" ybr="2469.01" z_order="0">
+    </box>
+  </image>
+  <image id="84" name="6Z2_5256.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1231.30" ytl="3523.70" xbr="1777.90" ybr="4332.90" z_order="0">
+    </box>
+  </image>
+  <image id="85" name="6Z2_5275.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1934.60" ytl="3590.30" xbr="2467.20" ybr="4391.93" z_order="0">
+    </box>
+  </image>
+  <image id="86" name="6Z2_5281.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1817.69" ytl="3471.50" xbr="2657.00" ybr="4099.09" z_order="0">
+    </box>
+  </image>
+  <image id="87" name="6Z2_5284.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="160.80" ytl="4176.60" xbr="906.61" ybr="4509.00" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1743.06" ytl="3698.24" xbr="2630.80" ybr="3897.30" z_order="0">
+    </box>
+  </image>
+  <image id="88" name="6Z2_5286.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1881.80" ytl="3997.10" xbr="2470.58" ybr="4509.00" z_order="0">
+    </box>
+  </image>
+  <image id="89" name="6Z2_5312.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1883.78" ytl="1812.20" xbr="2073.50" ybr="2090.61" z_order="0">
+    </box>
+  </image>
+  <image id="90" name="6Z2_5323.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1339.20" ytl="2266.30" xbr="1672.80" ybr="2698.75" z_order="0">
+    </box>
+  </image>
+  <image id="91" name="6Z2_5419.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2582.48" ytl="1956.18" xbr="2804.40" ybr="2193.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3766.06" ytl="1600.94" xbr="3844.80" ybr="1724.08" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2655.00" ytl="886.50" xbr="2704.80" ybr="947.30" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3774.66" ytl="1330.31" xbr="3876.32" ybr="1449.16" z_order="0">
+    </box>
+  </image>
+  <image id="92" name="6Z2_5425.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2314.01" ytl="2433.30" xbr="2682.70" ybr="2922.60" z_order="0">
+    </box>
+  </image>
+  <image id="93" name="6Z2_5429.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2299.19" ytl="2344.40" xbr="2642.20" ybr="2783.90" z_order="0">
+    </box>
+  </image>
+  <image id="94" name="6Z2_5442.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1981.79" ytl="2538.60" xbr="2396.40" ybr="3000.00" z_order="0">
+    </box>
+  </image>
+  <image id="95" name="6Z2_5448.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2288.80" ytl="2072.00" xbr="2583.80" ybr="2491.30" z_order="0">
+    </box>
+  </image>
+  <image id="96" name="6Z2_5457.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2382.70" ytl="2121.90" xbr="2689.94" ybr="2574.20" z_order="0">
+    </box>
+  </image>
+  <image id="97" name="6Z2_5465.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2283.40" ytl="2114.70" xbr="2600.58" ybr="2590.00" z_order="0">
+    </box>
+  </image>
+  <image id="98" name="6Z2_5467.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2133.59" ytl="2151.30" xbr="2406.30" ybr="2507.00" z_order="0">
+    </box>
+  </image>
+  <image id="99" name="6Z2_5472.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1387.70" ytl="2053.42" xbr="1654.30" ybr="2432.60" z_order="0">
+    </box>
+  </image>
+  <image id="100" name="6Z2_5480.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="875.80" ytl="1899.10" xbr="1033.90" ybr="2122.10" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2325.03" ytl="1898.60" xbr="2471.77" ybr="2109.60" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1715.90" ytl="1932.20" xbr="1862.20" ybr="2135.20" z_order="0">
+    </box>
+  </image>
+  <image id="101" name="6Z2_5484.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1248.70" ytl="1473.90" xbr="1369.42" ybr="1637.10" z_order="0">
+    </box>
+  </image>
+  <image id="102" name="6Z2_5490.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2838.10" ytl="1549.90" xbr="2950.40" ybr="1707.70" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2161.42" ytl="1642.89" xbr="2266.90" ybr="1791.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="998.50" ytl="1576.30" xbr="1103.50" ybr="1729.27" z_order="0">
+    </box>
+  </image>
+  <image id="103" name="6Z2_5496.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="667.61" ytl="1960.06" xbr="834.71" ybr="2207.96" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1901.60" ytl="1954.50" xbr="2075.40" ybr="2210.00" z_order="0">
+    </box>
+  </image>
+  <image id="104" name="6Z2_5505.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2155.90" ytl="2131.00" xbr="2287.20" ybr="2344.40" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2470.20" ytl="2014.80" xbr="2594.90" ybr="2219.40" z_order="0">
+    </box>
+  </image>
+  <image id="105" name="6Z2_5508.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2497.90" ytl="1836.60" xbr="2650.90" ybr="2088.10" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2117.50" ytl="1970.10" xbr="2283.80" ybr="2237.10" z_order="0">
+    </box>
+  </image>
+  <image id="106" name="6Z2_5512.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2198.20" ytl="1767.20" xbr="2288.00" ybr="1915.08" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2411.70" ytl="1696.10" xbr="2498.00" ybr="1838.21" z_order="0">
+    </box>
+  </image>
+  <image id="107" name="6Z2_5515.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2173.40" ytl="1802.30" xbr="2271.48" ybr="1950.00" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2391.30" ytl="1721.50" xbr="2479.00" ybr="1863.40" z_order="0">
+    </box>
+  </image>
+  <image id="108" name="6Z2_5518.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2810.90" ytl="1668.60" xbr="2907.60" ybr="1832.20" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1753.10" ytl="1695.00" xbr="1842.60" ybr="1854.40" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2139.31" ytl="1671.30" xbr="2237.10" ybr="1812.75" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2458.10" ytl="1735.02" xbr="2566.00" ybr="1887.51" z_order="0">
+    </box>
+  </image>
+  <image id="109" name="6Z2_5522.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2162.10" ytl="1672.50" xbr="2247.40" ybr="1818.30" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2820.60" ytl="1677.40" xbr="2917.80" ybr="1839.07" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2476.60" ytl="1746.70" xbr="2576.10" ybr="1896.96" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1777.80" ytl="1708.30" xbr="1860.80" ybr="1863.70" z_order="0">
+    </box>
+  </image>
+  <image id="110" name="6Z2_5528.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1462.80" ytl="1937.50" xbr="1562.30" ybr="2162.30" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2845.30" ytl="1887.80" xbr="2990.60" ybr="2120.80" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2407.00" ytl="1991.50" xbr="2549.50" ybr="2209.43" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3350.90" ytl="1892.20" xbr="3520.40" ybr="2155.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2010.20" ytl="1893.62" xbr="2133.35" ybr="2091.57" z_order="0">
+    </box>
+  </image>
+  <image id="111" name="6Z2_5532.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1289.50" ytl="1842.00" xbr="1437.50" ybr="2102.10" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2277.50" ytl="1845.20" xbr="2448.10" ybr="2089.80" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2759.56" ytl="1753.30" xbr="2961.20" ybr="2061.16" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3402.40" ytl="1776.20" xbr="3602.10" ybr="2078.80" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1967.40" ytl="1710.14" xbr="2102.60" ybr="1954.70" z_order="0">
+    </box>
+  </image>
+  <image id="112" name="6Z2_5536.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2801.60" ytl="1774.30" xbr="2979.50" ybr="2042.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="2312.41" ytl="1818.30" xbr="2466.50" ybr="2063.90" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1277.80" ytl="1806.40" xbr="1419.50" ybr="2061.61" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="3378.99" ytl="1779.30" xbr="3585.70" ybr="2085.10" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1916.57" ytl="1714.71" xbr="2033.90" ybr="1940.40" z_order="0">
+    </box>
+  </image>
+  <image id="113" name="6Z2_5546.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1836.13" ytl="2293.37" xbr="2171.64" ybr="2783.57" z_order="0">
+    </box>
+  </image>
+  <image id="114" name="6Z2_5558.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2518.08" ytl="2112.61" xbr="2810.24" ybr="2515.58" z_order="0">
+    </box>
+  </image>
+  <image id="115" name="6Z2_5560.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2497.41" ytl="2195.27" xbr="2789.57" ybr="2594.32" z_order="0">
+    </box>
+  </image>
+  <image id="116" name="6Z2_5578.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1618.10" ytl="2410.30" xbr="1935.50" ybr="2879.40" z_order="0">
+    </box>
+  </image>
+  <image id="117" name="6Z2_5592.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1996.47" ytl="1847.99" xbr="2231.20" ybr="2191.18" z_order="0">
+    </box>
+  </image>
+  <image id="118" name="6Z2_5613.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2540.60" ytl="1312.14" xbr="2655.20" ybr="1475.80" z_order="0">
+    </box>
+  </image>
+  <image id="119" name="6Z2_5622.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="3641.34" ytl="2494.90" xbr="4027.12" ybr="2973.49" z_order="0">
+    </box>
+  </image>
+  <image id="120" name="6Z2_5625.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2547.55" ytl="2029.21" xbr="2816.74" ybr="2401.49" z_order="0">
+    </box>
+  </image>
+  <image id="121" name="6Z2_5650.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2190.00" ytl="2223.60" xbr="2489.20" ybr="2698.00" z_order="0">
+    </box>
+  </image>
+  <image id="122" name="6Z2_5662.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2240.07" ytl="2316.54" xbr="2499.46" ybr="2779.11" z_order="0">
+    </box>
+  </image>
+  <image id="123" name="6Z2_5672.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2073.90" ytl="1569.00" xbr="2163.50" ybr="1680.80" z_order="0">
+    </box>
+  </image>
+  <image id="124" name="6Z2_5678.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2116.40" ytl="2554.60" xbr="2361.30" ybr="2968.40" z_order="0">
+    </box>
+  </image>
+  <image id="125" name="6Z2_5682.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2318.91" ytl="2269.03" xbr="2598.00" ybr="2658.60" z_order="0">
+    </box>
+  </image>
+  <image id="126" name="6Z2_5709.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2252.29" ytl="1702.50" xbr="2483.00" ybr="2012.70" z_order="0">
+    </box>
+  </image>
+  <image id="127" name="6Z2_5716.jpg" width="3000" height="4509">
+    <box label="badge" occluded="0" source="manual" xtl="1537.20" ytl="2178.49" xbr="1741.70" ybr="2474.28" z_order="0">
+    </box>
+  </image>
+  <image id="128" name="6Z2_5723.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2330.70" ytl="2137.01" xbr="2371.50" ybr="2513.87" z_order="0">
+    </box>
+  </image>
+  <image id="129" name="6Z2_5734.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="2298.09" ytl="2754.40" xbr="2698.40" ybr="2996.56" z_order="0">
+    </box>
+  </image>
+  <image id="130" name="6Z2_5739.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="3758.30" ytl="1911.76" xbr="3973.60" ybr="2125.76" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="214.05" ytl="2404.20" xbr="633.50" ybr="2787.82" z_order="0">
+    </box>
+    <box label="badge" occluded="0" source="manual" xtl="1721.33" ytl="2289.50" xbr="2092.40" ybr="2473.30" z_order="0">
+    </box>
+  </image>
+  <image id="131" name="6Z2_5778.jpg" width="4509" height="3000">
+    <box label="badge" occluded="0" source="manual" xtl="1869.17" ytl="2780.92" xbr="2256.97" ybr="2998.08" z_order="0">
+    </box>
+  </image>
+  <image id="132" name="msg465090405-8669.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="604.90" ytl="299.50" xbr="686.30" ybr="383.63" z_order="0">
+    </box>
+  </image>
+  <image id="133" name="msg465090405-8670.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="619.20" ytl="280.10" xbr="697.05" ybr="310.84" z_order="0">
+    </box>
+  </image>
+  <image id="134" name="msg465090405-8671.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="659.94" ytl="438.44" xbr="726.83" ybr="487.01" z_order="0">
+    </box>
+  </image>
+  <image id="135" name="msg465090405-8672.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="646.73" ytl="483.60" xbr="696.05" ybr="550.16" z_order="0">
+    </box>
+  </image>
+  <image id="136" name="msg465090405-8673.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="559.50" ytl="160.68" xbr="616.30" ybr="243.16" z_order="0">
+    </box>
+  </image>
+  <image id="137" name="msg465090405-8674.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="654.30" ytl="44.90" xbr="711.58" ybr="125.10" z_order="0">
+    </box>
+  </image>
+  <image id="138" name="msg465090405-8675.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="624.13" ytl="394.74" xbr="708.30" ybr="472.82" z_order="0">
+    </box>
+  </image>
+  <image id="139" name="msg465090405-8676.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="634.80" ytl="400.73" xbr="690.90" ybr="474.40" z_order="0">
+    </box>
+  </image>
+  <image id="140" name="msg465090405-8677.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="533.30" ytl="112.80" xbr="591.20" ybr="197.40" z_order="0">
+    </box>
+  </image>
+  <image id="141" name="msg465090405-8678.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="635.70" ytl="390.50" xbr="651.80" ybr="467.81" z_order="0">
+    </box>
+  </image>
+  <image id="142" name="msg465090405-8679.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="572.10" ytl="310.00" xbr="646.00" ybr="372.10" z_order="0">
+    </box>
+  </image>
+  <image id="143" name="msg465090405-8680.jpg" width="1280" height="960">
+    <box label="badge" occluded="0" source="manual" xtl="624.30" ytl="457.00" xbr="680.20" ybr="533.90" z_order="0">
+    </box>
+  </image>
+</annotations>
