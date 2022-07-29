@@ -1,0 +1,111 @@
+Downloading https://ultralytics.com/assets/Arial.ttf to /home/br0fire/.config/Ultralytics/Arial.ttf...
+100%|████████████████████████████████████████| 755k/755k [00:00<00:00, 4.19MB/s]
+YOLOv5 temporarily requires wandb version 0.12.10 or below. Some features may not work as expected.
+                 from  n    params  module                                  arguments
+  0                -1  1      3520  models.common.Conv                      [3, 32, 6, 2, 2]
+  1                -1  1     18560  models.common.Conv                      [32, 64, 3, 2]
+  2                -1  1     18816  models.common.C3                        [64, 64, 1]
+  3                -1  1     73984  models.common.Conv                      [64, 128, 3, 2]
+  4                -1  2    115712  models.common.C3                        [128, 128, 2]
+  5                -1  1    295424  models.common.Conv                      [128, 256, 3, 2]
+  6                -1  3    625152  models.common.C3                        [256, 256, 3]
+  7                -1  1   1180672  models.common.Conv                      [256, 512, 3, 2]
+  8                -1  1   1182720  models.common.C3                        [512, 512, 1]
+  9                -1  1    656896  models.common.SPPF                      [512, 512, 5]
+ 10                -1  1    131584  models.common.Conv                      [512, 256, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  1    361984  models.common.C3                        [512, 256, 1, False]
+ 14                -1  1     33024  models.common.Conv                      [256, 128, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  1     90880  models.common.C3                        [256, 128, 1, False]
+ 18                -1  1    147712  models.common.Conv                      [128, 128, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  1    296448  models.common.C3                        [256, 256, 1, False]
+ 21                -1  1    590336  models.common.Conv                      [256, 256, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  1   1182720  models.common.C3                        [512, 512, 1, False]
+ 24      [17, 20, 23]  1     16182  models.yolo.Detect                      [1, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [128, 256, 512]]
+Model summary: 270 layers, 7022326 parameters, 7022326 gradients, 15.9 GFLOPs
+Transferred 349/349 items from yolov5/best.pt
+      Params      GFLOPs  GPU_mem (GB)  forward (ms) backward (ms)                   input                  output
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mAutoBatch: [39m[22mComputing optimal batch size for --imgsz 640
+[34m[1mAutoBatch: [39m[22mCUDA:0 (NVIDIA GeForce GTX 1060 3GB) 2.95G total, 0.08G reserved, 0.05G allocated, 2.81G free
+     7022326       15.95         0.256         30.07          70.5        (1, 3, 640, 640)                    list
+     7022326       31.89         0.442         27.01         47.46        (2, 3, 640, 640)                    list
+     7022326       63.78         0.824         53.01         89.01        (4, 3, 640, 640)                    list
+     7022326       127.6         1.596         93.45         163.4        (8, 3, 640, 640)                    list
+CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 2.95 GiB total capacity; 1.84 GiB already allocated; 38.38 MiB free; 1.90 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[34m[1mAutoBatch: [39m[22mUsing batch-size 12 for CUDA:0 2.36G/2.95G (80%) ✅
+Scaled weight_decay = 0.00046875
+[34m[1moptimizer:[39m[22m SGD with parameter groups 57 weight (no decay), 60 weight, 60 bias
+[34m[1mtrain: [39m[22mScanning '/home/br0fire/Tracking/yolov5/../data/labels/training' images a
+[34m[1mtrain: [39m[22mNew cache created: /home/br0fire/Tracking/yolov5/../data/labels/training.cache
+[34m[1mval: [39m[22mScanning '/home/br0fire/Tracking/yolov5/../data/labels/validation' images a
+[34m[1mval: [39m[22mNew cache created: /home/br0fire/Tracking/yolov5/../data/labels/validation.cache
+Plotting labels to yolov5/runs/train/exp2/labels.jpg...
+[34m[1mAutoAnchor: [39m[22m5.51 anchors/target, 1.000 Best Possible Recall (BPR). Current anchors are a good fit to dataset ✅
+Image sizes 640 train, 640 val
+Using 4 dataloader workers
+Logging results to [1myolov5/runs/train/exp2
+Starting training for 100 epochs...
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+  0%|          | 0/15 [00:14<?, ?it/s]
+Traceback (most recent call last):
+  File "yolov5/train.py", line 667, in <module>
+    main(opt)
+  File "yolov5/train.py", line 562, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "yolov5/train.py", line 352, in train
+    pred = model(imgs)  # forward
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/Tracking/yolov5/models/yolo.py", line 135, in forward
+    return self._forward_once(x, profile, visualize)  # single-scale inference, train
+  File "/home/br0fire/Tracking/yolov5/models/yolo.py", line 158, in _forward_once
+    x = m(x)  # run
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/Tracking/yolov5/models/common.py", line 158, in forward
+    return self.cv3(torch.cat((self.m(self.cv1(x)), self.cv2(x)), 1))
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/Tracking/yolov5/models/common.py", line 47, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 447, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 443, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 2.95 GiB total capacity; 1.83 GiB already allocated; 45.06 MiB free; 1.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "yolov5/train.py", line 667, in <module>
+    main(opt)
+  File "yolov5/train.py", line 562, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "yolov5/train.py", line 352, in train
+    pred = model(imgs)  # forward
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/Tracking/yolov5/models/yolo.py", line 135, in forward
+    return self._forward_once(x, profile, visualize)  # single-scale inference, train
+  File "/home/br0fire/Tracking/yolov5/models/yolo.py", line 158, in _forward_once
+    x = m(x)  # run
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/Tracking/yolov5/models/common.py", line 158, in forward
+    return self.cv3(torch.cat((self.m(self.cv1(x)), self.cv2(x)), 1))
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/Tracking/yolov5/models/common.py", line 47, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 447, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/br0fire/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 443, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 2.95 GiB total capacity; 1.83 GiB already allocated; 45.06 MiB free; 1.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
